@@ -1,0 +1,237 @@
+
+
+#intro {
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titulo {
+    font-size: 20pt;
+    text-transform: uppercase;
+    color: blueviolet;
+    font-weight: 800;
+    z-index: 1;
+}
+
+p {
+    margin: 0;
+}
+
+#slogan {
+    font-size: 10pt;
+    text-transform: uppercase;
+    color: blueviolet;
+    z-index: 1;
+}
+
+#calculadora {
+    background-color: blueviolet;
+    margin-top: 1%;
+    width: 430px;
+    height: 230px;
+    border-radius: 2em;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    padding: 35px;
+    box-shadow: 0em 0em 0.5em blueviolet;
+    opacity: 70%;
+
+}
+
+#entradadados {
+    margin-top: -5px;
+    height: 400px;
+    padding: 0px 45px;
+    z-index: 1;
+
+}
+
+#entradanome {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#entradaidade {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+#entradasexo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#entradapeso {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#entradaaltura {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+#entradadados input[type=text] {
+    color: dimgray;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 10pt;
+    padding: 5px;
+    text-shadow: #e9d6f0;
+    width: 250px;
+    border: 3px solid #e9d6f0;
+    border-radius: 2em;
+    transition: width 0.3s;
+
+}
+
+#entradadados input[type=number] {
+    color: dimgray;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 10pt;
+    padding: 5px;
+    text-shadow: #e9d6f0;
+    width: 84px;
+    border: 3px solid #e9d6f0;
+    border-radius: 2em;
+    transition: width 0.3s;
+    left: 10px;
+}
+
+#entradadados input[type=text]:hover {
+    width: 290px;
+}
+
+#lmasc:hover {
+    font-weight: 500;
+    box-shadow: 0em 0em 0.5em blueviolet;
+    transition: all 0.1s ease;
+}
+
+#lfem:hover {
+    font-weight: 500;
+    box-shadow: 0em 0em 0.5em blueviolet;
+    transition: all 0.1s ease;
+}
+
+label {
+    color: aliceblue;
+    text-shadow: #e9d6f0;
+    font-size: 10pt;
+    margin: 0 5px;
+}
+
+#idade {
+    margin: 0 5px;
+}
+
+#peso {
+    margin: 0 5px;
+}
+
+#resultado {
+    border-radius: 2em;
+    width: 430px;
+    height: 200px;
+    display: flex;
+    margin-top: 65px;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    color: #800080;
+    font-weight: 500;
+    font-size: 18pt;
+    text-shadow: darkgray 1px 2px 2px;
+    padding: 30px;
+    display: none;
+    animation: fadeIn 2s;
+}
+
+#info {
+    margin-top: 60px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    display: none;
+    animation: fadeIn 2s;
+}
+
+#info > span{
+    color: aliceblue;
+    font-size: 10pt;
+    background-color: #800080;
+    border-radius: 20px;
+    padding:  2px 15px 4px;
+    opacity: 70%;
+    cursor: pointer;
+}
+
+#info > span:hover {
+    box-shadow: 0em 0em 0.5em blueviolet;
+    font-weight: 900;
+    transition: all 0.3s ease;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+#botoes {
+    border-radius: 2em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: -190px;
+    gap: 7px;
+
+}
+
+#botoes>input {
+    border-radius: 2em;
+    border: 0px;
+    width: 80px;
+    padding: 1em 1em;
+    background-color: #DCDCDC;
+}
+
+#botoes>input[type=button]:hover {
+    box-shadow: 0em 0em 0.5em blueviolet;
+    font-weight: 900;
+    transition: all 0.3s ease;
+}
